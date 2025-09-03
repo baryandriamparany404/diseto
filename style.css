@@ -148,7 +148,7 @@ form {
     .menu {
         display: none;
         flex-direction: column;
-        background-color: #222;
+        background-color: #34495e;
         width: 100%;
         margin-top: 10px;
     }
@@ -158,7 +158,7 @@ form {
     #toggle:checked + .menu-icon + .menu {
         display: flex;
     }
-    .menu_icon {
+    .menu-icon {
         display: block;
     }
     .dropdown:hover .submenu {
@@ -166,6 +166,6 @@ form {
     }
     .submenu {
         position: static;
-        background-color: #333;
+        background-color: #34495e;
     }
 }
